@@ -609,7 +609,7 @@ footer {
     }
 
     /* Current menu */
-    .card2 { grid-template-columns: 1fr; margin: 0 16px; gap: 20px; }
+    .card2 { grid-template-columns: 1fr; margin: 0 16px; gap: 32px; }
     .cm-img { height: 200px; }
 
     .price-tag { display: flex; justify-content: space-between; }
