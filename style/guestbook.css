@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 .guestbook-modal {
     position: fixed;
     inset: 0;
@@ -63,12 +65,14 @@
 
 /* ROW NAME & EMAIL */
 .row {
+    width: 100%;
     display: flex;
     gap: 16px;
 }
 
 .row input {
     flex: 1;
+    min-width: 0;
 }
 
 /* TEXTAREA */
