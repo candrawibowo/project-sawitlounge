@@ -923,7 +923,7 @@ footer {
     .headline1,
     .headline1 h1 { margin: 40px 16px 30px; font-size: clamp(1.5rem, 6vw, 2.2rem); letter-spacing: 2px; }
 
-    .card2 { grid-template-columns: 1fr; margin: 0 16px; gap: 20px; }
+    .card2 { grid-template-columns: 1fr; margin:0 16px; gap: 32px; }
     .cm-img { height: 200px; }
 
     /* FAQ */
