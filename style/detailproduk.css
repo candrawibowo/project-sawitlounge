@@ -273,7 +273,7 @@ nav ul li a:hover { color: var(--accent-color); }
 .carousel button {
     bottom: 10px;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     color: var(--accent-color);
     border: none;
     border-radius: 1000px;
@@ -292,8 +292,19 @@ nav ul li a:hover { color: var(--accent-color); }
     gap: 16px;
 }
 
+.next, .prev {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
 .carousel button:hover {
-    background: rgba(0,0,0,0.8);
+    background: none;
+    border: 2px solid white;
 }
 
 .desc-produk {

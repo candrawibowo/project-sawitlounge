@@ -4,9 +4,11 @@ console.log("halo");
 const toggle = document.getElementById("menu-toggle");
 const nav = document.querySelector(".mobile-menu");
 
-toggle.addEventListener("click", () => {
+toggle.addEventListener("click", function (e) {
+  e.stopPropagation(); 
   nav.classList.toggle("show");
 });
+
 
 
 // FAQ
