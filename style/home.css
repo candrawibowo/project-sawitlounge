@@ -919,6 +919,7 @@ footer {
         scroll-snap-align: start;
     }
 
+    .ch-desc { padding: 8px; }
     .ch-desc h6, .ch-text { font-size: 12px; }
 
     /* Headings */
