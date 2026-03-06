@@ -331,7 +331,7 @@ nav ul li a:hover { color: var(--accent-color); }
 /* FILTER BTN */
 .filter-btns {
     display: flex;
-    gap: 16px; 
+    gap: 24px; 
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -353,6 +353,20 @@ nav ul li a:hover { color: var(--accent-color); }
 
 .filter-btns button:hover {
     transform: scale(1.1);
+}
+
+.f-btn:hover {
+    background: none;
+    border: 2px solid var(--accent-color);
+    color: var(--secondary-color);
+
+    /* background: var(--accent-color); */
+}
+
+.f-btn.active {
+    background-color: var(--accent-color);
+    color: #d4ede6;
+    transform: scale(1.05);
 }
 
 

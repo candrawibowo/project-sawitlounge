@@ -42,3 +42,19 @@ function filterProduct(category) {
               : 'none'
   })
 }
+
+// BTN CAT
+function filterProduct(category) {
+
+  document.querySelectorAll('.f-btn').forEach(btn => btn.classList.remove('active'));
+  event.currentTarget.classList.add('active');
+
+
+  document.querySelectorAll('.product').forEach(product => {
+      if (category === 'all' || product.classList.contains(category)) {
+          product.style.display = 'block';
+      } else {
+          product.style.display = 'none';
+      }
+  });
+}

@@ -706,9 +706,11 @@ footer {
     padding: 80px 0 40px;
     overflow: hidden;
 }
+
 footer {
     background-attachment: fixed;
 }
+
 .footer-cont {
     padding: 32px;
     display: grid;
@@ -879,7 +881,7 @@ footer {
         width: 100%;
         margin: 0;
     }
-    
+
     .navbar-nav li { padding: 16px; width: 100%; text-align: left; }
     .navbar-nav li a { font-size: 16px; }
 
