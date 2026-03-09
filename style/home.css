@@ -957,7 +957,7 @@ footer {
 @media (max-width: 480px) {
 
     .navbar { padding: 12px 14px; }
-    .navbar, .logo img { width: 110px; }
+    .navbar .logo { width: 110px; }
 
     .hero-btns a { font-size: 12px; padding: 11px 20px; }
 
